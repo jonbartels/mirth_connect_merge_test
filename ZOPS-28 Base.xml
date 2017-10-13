@@ -3,7 +3,7 @@
   <nextMetaDataId>2</nextMetaDataId>
   <name>ZOPS-28 Base</name>
   <description>An empty channel to test simple cases</description>
-  <revision>1</revision>
+  <revision>2</revision>
   <sourceConnector version="3.5.0">
     <metaDataId>0</metaDataId>
     <name>sourceConnector</name>
@@ -327,7 +327,9 @@ return message;</preprocessingScript>
 return;</postprocessingScript>
   <deployScript>// This script executes once when the channel is deployed
 // You only have access to the globalMap and globalChannelMap here to persist data
-return;</deployScript>
+return;
+
+//im making some changes here</deployScript>
   <undeployScript>// This script executes once when the channel is undeployed
 // You only have access to the globalMap and globalChannelMap here to persist data
 return;</undeployScript>
@@ -367,7 +369,7 @@ return;</undeployScript>
     <metadata>
       <enabled>true</enabled>
       <lastModified>
-        <time>1507900375567</time>
+        <time>1507900457760</time>
         <timezone>America/New_York</timezone>
       </lastModified>
       <pruningSettings>
